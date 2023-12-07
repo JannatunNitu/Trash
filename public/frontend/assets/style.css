@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6,a,li,span{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.todo-app{
+    width: 100%;
+    max-width:540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.todo-app h3{
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    color: #002765;
+    margin-bottom: 20px;
+}
+.todo-app span{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.input input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #DC8686;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 151px;
+}
+.all-todos table tr td{
+    font-size: 17px;
+    padding: 12px 8px 12px 20px;
+    user-select: none;
+    cursor: pointer;
+}
+.all-todos table tr td span{
+    padding-right: 10px;
+}
+table tr td .checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+td.col.action {
+    padding-left: 271px;
+}
